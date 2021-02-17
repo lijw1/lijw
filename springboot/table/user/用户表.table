@@ -1,0 +1,19 @@
+CREATE TABLE "USERS" (
+    "ID" VARCHAR2(36 BYTE) PRIMARY KEY,
+	"USER_NAME" VARCHAR2(50 BYTE),
+    "USER_PASSWORD" VARCHAR2(50 BYTE),
+	"ADDRESS" VARCHAR2(200 BYTE),
+	"PHONE" VARCHAR2(50 BYTE),
+    "DEPT" VARCHAR2(200 BYTE),
+    "ROSE" VARCHAR2(36 BYTE),
+    "REMARK" VARCHAR2(300 BYTE)
+ )
+comment on table USERS is '用户表';
+comment on column USERS.ID is 'ID';
+comment on column USERS.USER_NAME is '用户名';
+comment on column USERS.USER_PASSWORD is '用户密码';
+comment on column USERS.ADDRESS is '地址';
+comment on column USERS.PHONE is '电话';
+comment on column USERS.DEPT is '部门';
+comment on column USERS.ROSE is '角色';
+comment on column USERS.REMARK is '备注';

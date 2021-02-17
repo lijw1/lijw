@@ -1,0 +1,9 @@
+ CREATE TABLE "ROSE" (
+    "ID" VARCHAR2(36 BYTE) PRIMARY KEY,
+    "NAME" VARCHAR2(200 BYTE) not null,
+    "REMARK" VARCHAR2(300 BYTE)
+ )
+comment on table ROSE is '角色表';
+comment on column ROSE.ID is 'ID';
+comment on column ROSE.NAME is '角色名称';
+comment on column ROSE.REMARK is '角色备注';

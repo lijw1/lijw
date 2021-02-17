@@ -1,0 +1,13 @@
+CREATE TABLE "MENU" (
+    "ID" VARCHAR2(36 BYTE) PRIMARY KEY, 
+    "NAME" VARCHAR2(200 BYTE) not null,
+    "URL" VARCHAR2(200 BYTE),
+    "ORDER_NUMBER" INTEGER not null,
+    "REMARK" VARCHAR2(300 BYTE)
+ ) 
+comment on table MENU is '菜单表';
+comment on column MENU.ID is 'ID';
+comment on column MENU.NAME is '菜单名称';
+comment on column MENU.URL is '菜单URL';
+comment on column MENU.ORDER_NUMBER is '菜单排序号';
+comment on column MENU.REMARK is '菜单备注';

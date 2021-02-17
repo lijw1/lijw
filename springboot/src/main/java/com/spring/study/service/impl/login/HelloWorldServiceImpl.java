@@ -1,8 +1,8 @@
-package com.spring.study.service.impl;
+package com.spring.study.service.impl.login;
 
-import com.spring.study.dto.HelloDto;
-import com.spring.study.mapper.HelloMapper;
-import com.spring.study.service.HelloWorldService;
+import com.spring.study.dto.login.HelloDto;
+import com.spring.study.mapper.login.HelloMapper;
+import com.spring.study.service.login.HelloWorldService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

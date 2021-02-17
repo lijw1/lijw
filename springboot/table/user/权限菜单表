@@ -1,0 +1,9 @@
+ CREATE TABLE "ROSE_MENU" (
+    "ROSE_ID" VARCHAR2(36 BYTE) not null,
+    "MENU_ID" VARCHAR2(36 BYTE) not null,
+    "REMARK" VARCHAR2(300 BYTE)
+ )
+comment on table ROSE_MENU is '角色菜单表';
+comment on column ROSE_MENU.ROSE_ID is '角色ID';
+comment on column ROSE_MENU.MENU_ID is '菜单ID';
+comment on column ROSE_MENU.REMARK is '备注';

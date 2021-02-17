@@ -1,7 +1,7 @@
-package com.spring.study.controller;
+package com.spring.study.controller.login;
 
-import com.spring.study.dto.HelloDto;
-import com.spring.study.service.HelloWorldService;
+import com.spring.study.dto.login.HelloDto;
+import com.spring.study.service.login.HelloWorldService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

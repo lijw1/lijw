@@ -1,0 +1,13 @@
+CREATE TABLE "PERMISSIONS" (
+    "ID" VARCHAR2(36 BYTE) PRIMARY KEY,
+    "NAME" VARCHAR2(200 BYTE) not null,
+    "PER_FLAG" VARCHAR2(1 BYTE),
+    "ORDER_NUMBER" INTEGER not null,
+    "REMARK" VARCHAR2(300 BYTE)
+ )
+comment on table PERMISSIONS is '权限表';
+comment on column PERMISSIONS.ID is 'ID';
+comment on column PERMISSIONS.NAME is '操作名称';
+comment on column PERMISSIONS.PER_FLAG is '是否有操作权限 Y 有 N 没有';
+comment on column PERMISSIONS.ORDER_NUMBER is '权限排序号';
+comment on column PERMISSIONS.REMARK is '权限备注';

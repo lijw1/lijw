@@ -1,4 +1,4 @@
-package com.spring.study.dto;
+package com.spring.study.dto.login;
 
 public class HelloDto {
     private String id;
