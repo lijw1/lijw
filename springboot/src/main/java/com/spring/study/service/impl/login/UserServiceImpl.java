@@ -19,7 +19,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public BaseListResult pageList(User user) {
         List<User> list = userMapper.pageList(user);
-        return new BaseListResult(true,"查询成功",null,list);
+        return new BaseListResult(true,"查询成功",null,null);
     }
 
     @Override
